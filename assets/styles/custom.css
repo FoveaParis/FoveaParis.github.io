@@ -1,0 +1,87 @@
+/* ----- Links in footer -----*/
+
+.about-widget a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: rgb(229, 229, 229);
+}
+
+.about-widget a:hover, .about-widget a:focus {
+  color: rgb(229, 229, 229);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.about-widget a:visited {
+  color: rgb(229, 229, 229);
+  text-decoration: none;
+}
+
+.about-widget a:visited:hover, .about-widget a:visited:focus {
+  color: rgb(229, 229, 229);
+  text-decoration: none;
+}
+
+
+/* ----- Links in t-items -----*/
+.content-wrapper a {
+    display: block;
+    text-align: right;
+    color: #999;
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+
+/* ----- Legend in portfolio -----*/
+
+.portfolio-item p {
+    font-size: 3em;
+
+}
+
+/* ----- Pictures in single-product pages -----*/
+
+.client_logo{
+  height:400px;
+  width:400px;
+  background:#f4f4f4;
+}
+.display-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo-img{
+    width: auto !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ----- Add zoom on overlay -----*/
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
