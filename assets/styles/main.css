@@ -2555,7 +2555,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 0px;
   min-height: 75px;
   border-radius: 0;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .navbar .navbar-brand {
@@ -3082,6 +3082,7 @@ fieldset[disabled] .form-control:hover {
 
 .navbar-small {
   min-height: 50px;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 .navbar-small .navbar-header {
