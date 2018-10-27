@@ -7940,34 +7940,28 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 {
-  background: url(../images/hero/single-wing-necklace_3_hero.jpg);
-  background-size: cover;
-
-}
-
-.fs-slide-4 {
   background: url(../images/hero/silver_10wings_necklace_2_hero.jpg);
   background-size: cover;
-}
 
-
-.fs-slide-5 {
-  background: url(../images/hero/double-jonc_hero.jpg);
-  background-size: cover;
 }
 
 .fs-slide-2 {
-  background: url(../images/hero/double-jonc-gold_hero.jpg);
-  background-size: cover;
-}
-
-.fs-slide-3 {
   background: url(../images/hero/single-wing-necklace_hero.jpg);
   background-size: cover;
 }
 
-.fs-slide-6 {
-  background: url(../images/hero/thin-ring_hero.jpg);
+.fs-slide-3 {
+  background: url(../images/hero/double-jonc-gold_hero.jpg);
+  background-size: cover;
+}
+
+.fs-slide-4 {
+  background: url(../images/hero/single-wing-necklace_3_hero.jpg);
+  background-size: cover;
+}
+
+.fs-slide-5 {
+  background: url(../images/hero/double-jonc_hero.jpg);
   background-size: cover;
 }
 
