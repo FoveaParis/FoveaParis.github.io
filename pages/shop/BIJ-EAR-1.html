@@ -82,11 +82,11 @@
 
             <!-- Prodcut Images -->
             <div class="col-md-5">
-                        <ul class="prod_single_img_slider">
-                          <li><img id="zoom_01" class="img-responsive" src="../../assets/images/shop/earrings_1_350x350.jpg" alt="Product Image" data-zoom-image="../../assets/images/shop/earrings_2_350x350.jpg"></li>
-                          <li><img class="img-responsive" src="../../assets/images/shop/earrings_2_350x350.jpg" alt="Product Image"></li>
-                          <li><img class="img-responsive" src="../../assets/images/shop/earrings_3_350x350.jpg" alt="Product Image"></li>
-                        </ul>
+                <ul class="prod_single_img_slider">
+                    <li><img class="img-responsive" src="/assets/images/shop/ear-loops-3_350x350.jpg" alt="Product Image"></li>
+                    <li><img class="img-responsive" src="/assets/images/shop/ear-loops-2_350x350.jpg" alt="Product Image"></li>
+                    <li><img class="img-responsive" src="/assets/images/shop_large/ear-loops-1_350x350.jpg" alt="Product Image"></li>
+                </ul>
             </div><!-- / .col-md-6 -->
             
              <!-- Product Description -->
@@ -94,14 +94,15 @@
               <span class="prod-cat">Earrings</span>
               <p>Ref. ID: BIJ-EAR-1</p>
               </br>
-              <h1 class="prod-name">Simple pair of earrings</h1>
-              <h3 class="prod-price">€ 19.99</h3>
+              <h4>Collection iridescence</h4> 
+              <h1 class="prod-name">Hook earrings</h1>
+              <h3 class="prod-price">€ 20.00</h3>
               <p class="prod-desc">
-                This pair of elegant and unique earrings will perfectly match with any of your streetstyle. Both gold-finish and silver-finish are possible and the colors of the elytra range from red/copper to deep blue. 
+                  This stunning piece of jewelry is a combination of a high-quality gold-plated or silver-plated ear wire and elytra carefully matched and assembled. We make sure that the wings are matching each other for an optimal display. Both gold-finishing and silver-finishing are possible and the colors of the elytra range from red/copper to deep blue. 
               </p>
               </br></br></br>
               <a href="https://www.etsy.com/shop/FoveaParis" target="_blank" class="btn btn-large">Order now!</a>
-             </div><!-- / .col-md-5 -->
+            </div><!-- / .col-md-5 -->
          
        </div><!-- / .row -->
       
@@ -110,8 +111,60 @@
       
        <!-- ========== ADDITIONAL INFOS ========== -->
       <div class="container">
-          <div id="infos-jewelry_frame" class="row">
-          </div>
+          <div class="col-md-12">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#tab-sizeguide" aria-controls="tab-sizeguide" role="tab" data-toggle="tab">Product informations</a></li>
+              <li role="care"><a href="#tab-care" aria-controls="tab-care" role="tab" data-toggle="tab">Product care instructions</a></li>
+              <li role="presentation"><a href="#tab-help" aria-controls="tab-help" role="tab" data-toggle="tab">How to buy</a></li>
+            </ul>
+             <!-- Tab panes -->
+            <div class="tab-content">
+                
+               <!-- Item Description -->
+              <div role="tabpanel" class="tab-pane active" id="tab-sizeguide">
+                  <p>All our products are made with nickel-free, lead-free and hypoallergenic materials.</p>
+                  </br>
+                  <p>We gladly accept specific demands regarding your order. Please send us your requirements (metal finishing, colors, ...) by email when ordering a product.</p>
+                  </br>
+
+                  <li>Colors: copper, green or blue (as desired)</li>
+                  <li>Material: gold-plated or silver-plated brass ear wire (as desired)</li>
+
+              </div><!-- / .tab-pane #tab-sizeguide -->
+              
+              <!-- Care instructions -->
+              <div role="tabpanel" class="tab-pane" id="tab-care">
+                <p>In order to preserve the natural brightness of your jewels you shouldn't bring them into contact with water and humidity or perfume. Perfume, beauty products, alcohol, chemical products, lemon and other acid substances, but also salted water and chlorine must be avoided. It's thus advised to put makeup and perfume before putting on your jewels. </p>
+                <p>We recommend that you regularly clean your jewels. You can use a soft brush and lukewarm soapy water to eliminate the dirty deposits (salted water, chlorine, sun oil). Rince them with water and dry them with a soft fabric. </p>
+              </div>
+              
+
+              <!-- Reviews -->
+              <div role="tabpanel" class="tab-pane ft-steps-numbers" id="tab-help">
+                <div class="ws-s"></div>
+                  <!-- Step 1 -->
+                  <div class="col-lg-4 col-md-6 mb-sm-100 ft-item">
+                    <span class="ft-nbr">01</span>
+                    <h4>Select product</h4>
+                    <p>Chose the desired product, then press the "Order now" button. This will redirect you to the product page in our official Etsy selling platform. You can finish your order following the instructions provided by Etsy. </p>
+                  </div>
+                   <!-- Step 2 -->
+                  <div class="col-lg-4 col-md-6 mb-sm-100 ft-item">
+                    <span class="ft-nbr">02</span>
+                    <h4>Review your order</h4>
+                    <p>On Etsy, review your order at checkout and validate to send it to us! We handcraft most of our orders on demand and will start the process upon order validation.</p>
+                  </div>
+                   <!-- Step 3 -->
+                  <div class="col-lg-4 col-md-6 mb-sm-100 ft-item">
+                    <span class="ft-nbr">03</span>
+                    <h4>Remember us!</h4>
+                    <p>Don't forget to add us to your bookmarks (both Fovea-paris.com and our Etsy page!). And please rate us upon reception of your order!</p>
+                  </div>
+                
+              </div><!-- / .ft-steps-numbers #tab-help -->
+            </div>
+           </div>  
       </div>
       
       
@@ -158,17 +211,6 @@
     <script src="../../assets/js/vendor/jquery.ajaxchimp.js"></script>
  
     <script src="../../assets/js/load_assets.js"></script>
-    <script src='../../assets/js/jquery-1.8.3.min.js' type="text/javascript"></script>
-    <script src='../../assets/js/jquery.elevatezoom.js' type="text/javascript"></script>
-
-    <script>
-        $('#zoom_01').elevateZoom({
-            zoomType: "inner",
-            cursor: "crosshair",
-            zoomWindowFadeIn: 500,
-            zoomWindowFadeOut: 750
-       }); 
-    </script>
 
 
     <!-- Google Maps -->
