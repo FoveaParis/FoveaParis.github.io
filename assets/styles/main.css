@@ -2651,11 +2651,11 @@ fieldset[disabled] .form-control:hover {
 
 .navbar .navbar-nav .dropdown .dropdown-menu {
   margin-top: 30px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 30px 0;
   border: 1px solid #ececec;
   border-radius: 0;
   box-shadow: none;
-  background: rgba(255, 255, 255, 0.93);
+  background: rgba(255, 255, 255, 0.50);
 }
 
 .navbar .navbar-nav .dropdown .dropdown-menu li {
@@ -7909,6 +7909,7 @@ form .input-error-2:focus {
   position: relative;
   width: 100vw;
   height: 100vh;
+  animation: breath 40s linear infinite;
 }
 
 .fs-slider-hero .fs-slider .fs-slider-item .bg-overlay {

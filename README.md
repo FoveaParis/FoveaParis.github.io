@@ -14,3 +14,4 @@ Site should be live, definitely [here](https://foveaparis.github.io) and maybe [
 * Change button style ('Order now')  
 * ~~Add top ribbon mentionning discount~~  
 * Add FB/Instagram buttons  
+* Animated hero
