@@ -11,6 +11,6 @@ As of 2018-10-17, the only place where the website is hosted (and backed-up) is 
 Site should be live, definitely [here](https://foveaparis.github.io) and maybe [here](https://foveaparis.com).
 
 ## TO DO list:
-* Change button style ('Order now')
-* Add top ribbon mentionning discount
-* Add FB/Instagram buttons
+* Change button style ('Order now')  
+* ~~Add top ribbon mentionning discount~~  
+* Add FB/Instagram buttons  

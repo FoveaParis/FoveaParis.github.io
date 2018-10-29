@@ -34,6 +34,18 @@
 
     <!-- JS -->
     <script src="/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <!-- Facebook sharing button -->
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5bd70337084b9d001130e6a6&product=inline-follow-buttons' async='async'></script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     
 </head>
 
@@ -66,6 +78,23 @@
         </div>
     </nav><!-- / .navbar -->
     
+    <!-- ========== Right sidebar ========== -->
+    <div class="sharethis-inline-follow-buttons"></div>
+    
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <a href="https://www.facebook.com/Fovea-Paris-743496799331214" onclick="window.open('https://www.facebook.com/Fovea-Paris-743496799331214', 'newwindow', 'width=300,height=250'); return false;">
+                    <img src="/assets/images/icons/fb_like.png" height="35px" alt="Visit us on Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FFovea-Paris-743496799331214" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FFovea-Paris-743496799331214', 'newwindow', 'width=300,height=250'); return false;">
+                    <img src="/assets/images/icons/fb_share.png" height="35px" alt="Share on Facebook">
+                </a>
+            </li>
+        </ul>
+    </div>
     
     <!-- ============================================================ -->
 

@@ -4,6 +4,29 @@
     border-width: 0 0 1px;
 }
 
+/* ----- Sticky right sidebar - Social media -----*/
+
+.sticky-container{
+    padding:0px ;
+    margin:0 10 0 0;
+    position:fixed;
+    left:0px;
+    bottom:50px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color: rgba(0,0,0,0);
+    color:#efefef;
+    height:60px;
+    padding:0px;
+    margin:0px 10px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
 
 /* ----- Links in footer -----*/
 
