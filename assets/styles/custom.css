@@ -1,3 +1,10 @@
+/* ----- Navbar -----*/
+.navbar-fixed-top {
+    top: 30px;
+    border-width: 0 0 1px;
+}
+
+
 /* ----- Links in footer -----*/
 
 .about-widget a {
