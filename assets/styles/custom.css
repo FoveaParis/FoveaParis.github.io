@@ -14,6 +14,41 @@
 100% {transform:scale(1,1); }
 }
 
+/* ----- Order button -----*/
+
+.btn-buy, .btn-buy-light {
+  background: black;
+  border: 2px solid rgba(17, 17, 17, 0);
+  color: #fff;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-name: fadeIn;
+}
+
+.btn-buy:visited, .btn-buy-light:visited {
+  color: #fff;
+  background: black;
+}
+
+.btn-buy:visited:hover, .btn-buy-light:visited:hover {
+    color: #111;
+    background: none;
+    border: 2px solid #111111;
+}
+
+.btn-buy:hover, .btn-buy-light:hover {
+    color: #111;
+    background: none;
+    border: 2px solid #111111;
+}
+
+.btn-buy:focus, .btn-buy-light:focus {
+    color: #111;
+    background: none;
+    border: 2px solid #111111;
+}
+
+
 /* ----- Sticky right sidebar - Social media -----*/
 
 .sticky-container{

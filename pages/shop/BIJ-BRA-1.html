@@ -30,6 +30,9 @@
     <link rel="stylesheet" href="../../assets/styles/custom.css">
     <link rel="stylesheet" href="../../assets/styles/responsive.css">
 
+    <!-- Magnify CSS -->
+    <link rel="stylesheet" href="/assets/styles/magnify.css">
+
     <!-- JS -->
     <script src="../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -111,7 +114,7 @@
                    This stunning piece of jewelry is a combination of a high-quality adjustable brass cuff bracelet and elytra carefully shaped and set. Both gold-finishing and silver-finishing are possible and the colors of the elytra range from red/copper to deep blue. 
                </p>
                </br></br></br>
-               <a href="https://www.etsy.com/shop/FoveaParis" target="_blank" class="btn btn-large">Order now!</a>
+               <a href="https://www.etsy.com/shop/FoveaParis" target="_blank" class="btn btn-large btn-buy">Order now!</a>
              </div><!-- / .col-md-5 -->
 
        </div><!-- / .row -->
@@ -221,14 +224,38 @@
  
     <script src="../../assets/js/load_assets.js"></script>
 
-
     <!-- Google Maps -->
     <script src="../../assets/js/gmap.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATi0Gum1wShQlbE0k_eRUsm5KlDjnv-nc"></script>
  
     <!-- Definity JS -->
-    <script src="../../assets/js/main.js"></script>
-
+    <script src="/assets/js/main.js"></script>
+    
+    
+    <!-- Convert all src to data-src for img -->
+    <script> 
+    function initialiseImages() {
+            var scripts = document.getElementsByTagName('script');
+            var section = scripts[scripts.length-1].parentNode;
+            var images = section.getElementsByTagName('img');
+            for (var i = 0; i < images.length; i++) {
+                            var src = images[i].getAttribute('src');
+                            var datasrc = document.createAttribute('data-magnify-src');
+                            datasrc.value = src;
+                            images[i].setAttributeNode(datasrc);
+            };
+    }
+    initialiseImages();
+    </script>
+    <!-- Magnify.js -->
+    <script src="/assets/js/vendor/jquery.magnify.js"></script>
+    <!-- Launch Magnify.js -->
+    <script>
+        $(document).ready(function() {
+          $('img').magnify();
+        });
+    </script>
+    
 </body>
 
 <!-- Mirrored from themes.89elements.com/definity-html/index-fw-slider-mp.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Aug 2018 10:28:34 GMT -->
