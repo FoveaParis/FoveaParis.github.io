@@ -14,7 +14,7 @@
 100% {transform:scale(1,1); }
 }
 
-/* ----- Order button -----*/
+/* ----- Order now! button -----*/
 
 .btn-buy, .btn-buy-light {
   background: black;
@@ -56,7 +56,7 @@
     margin:0 10 0 0;
     position:fixed;
     left:0px;
-    bottom:50px;
+    bottom:20px;
     z-index: 1100;
 }
 .sticky li{

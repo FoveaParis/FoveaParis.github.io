@@ -3023,7 +3023,7 @@ fieldset[disabled] .form-control:hover {
   top: 30px;
   left: 0;
   right: 0;
-  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
 
   
 }
@@ -9142,7 +9142,7 @@ form .input-error-2:focus {
 
 .portfolio-item.hover-side figure figcaption .hover-text {
   margin: 0;
-  font-size: .7em;
+  font-size: .6em;
   line-height: 1.6;
   color: #999;
   opacity: 0;
