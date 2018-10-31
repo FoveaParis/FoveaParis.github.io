@@ -49,9 +49,9 @@
 }
 
 
-/* ----- Sticky right sidebar - Social media -----*/
+/* ----- Sticky left /right sidebar - Social media -----*/
 
-.sticky-container{
+.sticky-container-left{
     padding:0px ;
     margin:0 10 0 0;
     position:fixed;
@@ -59,13 +59,34 @@
     bottom:20px;
     z-index: 1100;
 }
+.sticky-container-right{
+    padding:0px ;
+    margin:0 10 0 0;
+    position:fixed;
+    right:0px;
+    bottom:10px;
+    z-index: 1100;
+}
 .sticky li{
     list-style-type:none;
     background-color: rgba(0,0,0,0);
     color:#efefef;
     height:60px;
-    padding:0px;
+    padding:10px;
     margin:0px 10px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky-left li{
+    list-style-type:none;
+    background-color: rgba(0,0,0,0);
+    color:#efefef;
+    height:40px;
+    padding:5px;
+    margin:0px 10px 5px 0px;
     -webkit-transition:all 0.25s ease-in-out;
     -moz-transition:all 0.25s ease-in-out;
     -o-transition:all 0.25s ease-in-out;
