@@ -9118,9 +9118,10 @@ form .input-error-2:focus {
 }
 
 .portfolio-item.hover-side figure figcaption {
-  padding: 40px 30px;
+  padding: 20px 10px;
   width: 38.2%;
   background: #111;
+  overflow: auto;
   opacity: 1;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);

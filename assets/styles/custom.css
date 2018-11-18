@@ -8,7 +8,17 @@ html,body
     overflow-x: hidden; 
 }
 
-/* ----- Navbar -----*/
+/* ----- Top-banner and Navbar -----*/
+.top-banner {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    background-color: #ff9900; 
+    width: 100%; 
+    height: 30px; 
+    z-index: 1000;
+}
+
 .navbar-fixed-top {
     top: 30px;
     border-width: 0 0 1px;

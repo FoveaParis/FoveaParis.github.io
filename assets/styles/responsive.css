@@ -1,6 +1,30 @@
 /* --------------------------------------------------
 	Responsive Styles - Media queries
 -------------------------------------------------- */
+
+@media (max-width: 992px) {
+  .top-banner {
+    height: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .top-banner {
+    height: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-fixed-top {
+    top: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-fixed-top {
+      top: 90px;
+  }
+}
+
+
 /* --------------------------------------------------
 	0.1 Settigns
 -------------------------------------------------- */
