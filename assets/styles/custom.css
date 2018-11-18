@@ -1,3 +1,13 @@
+/* ----- Adjust to delete right white space -----*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /* ----- Navbar -----*/
 .navbar-fixed-top {
     top: 30px;
@@ -146,8 +156,7 @@
 /* ----- Legend in portfolio -----*/
 
 .portfolio-item p {
-    font-size: 3em;
-
+    font-size: 0.5em;
 }
 
 /* ----- Pictures in single-product pages -----*/
