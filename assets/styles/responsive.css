@@ -2,6 +2,7 @@
 	Responsive Styles - Media queries
 -------------------------------------------------- */
 
+/* ------------ ADJUST TOP BANNER SIZE FOR SMALL SCREENS -------------- */
 @media (max-width: 992px) {
   .top-banner {
     height: 60px;
@@ -12,7 +13,6 @@
     height: 90px;
   }
 }
-
 @media (max-width: 992px) {
   .navbar-fixed-top {
     top: 60px;
@@ -23,7 +23,44 @@
       top: 90px;
   }
 }
-
+/* ------------ HIDE SOME FLOATING ELEMENTS -------------- */
+@media (max-width: 992px) {
+  .button.slick-next,
+  .button.slick-prev, 
+  .sticky-container-right,
+  .scroller {
+    visibility: hidden;
+  }
+}
+/* ------------ ADJUST HERO IMAGE WIDTHS FOR SMALL SCREENS -------------- */
+@media (max-aspect-ratio:10/1) {
+    .fs-slider-hero {
+      display:block;
+    }
+    .fw-slider-hero {
+      display:none;
+    }
+}
+@media (max-aspect-ratio:1/1) {
+    .fs-slider-hero {
+      display:none;
+    }
+    .fw-slider-hero {
+      display:block;
+    }
+}
+@media (max-width: 992px) {
+    .fw-slider-hero {
+      top: 146px;
+      display:block;
+    }
+}
+@media (max-width: 600px) {
+    .fw-slider-hero {
+      top: 176px;
+      display:block;
+    }
+}
 
 /* --------------------------------------------------
 	0.1 Settigns
