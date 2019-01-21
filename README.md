@@ -15,3 +15,9 @@ Site should be live, definitely [here](https://foveaparis.github.io) and maybe [
 * ~~Add top ribbon mentionning discount~~  
 * Add FB/Instagram buttons  
 * Animated hero
+
+
+-----------------
+# Logs
+### 2019-01-21
+Deleted the top banner
