@@ -30,6 +30,9 @@
     <link rel="stylesheet" href="../../assets/styles/custom.css">
     <link rel="stylesheet" href="../../assets/styles/responsive.css">
 
+    <!-- Magnify CSS -->
+    <link rel="stylesheet" href="/assets/styles/magnify.css">
+
     <!-- JS -->
     <script src="../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -89,9 +92,9 @@
             <!-- Prodcut Images -->
             <div class="col-md-5">
                 <ul class="prod_single_img_slider">
-                  <li><img class="img-responsive" src="/assets/images/shop_large/silver_10wings_necklace_2_350x350.jpg" alt="Product Image"></li>
-                  <li><img class="img-responsive" src="/assets/images/shop_large/10wings_necklace-green.jpg" alt="Product Image"></li>
-                  <li><img class="img-responsive" src="/assets/images/shop_large/10wings_necklaces_350x350.jpg" alt="Product Image"></li>
+                  <li><img class="img-responsive" src="/assets/images/shop_large/jonc-gold_1-set-wing_3.jpg" alt="Product Image"></li>
+                  <li><img class="img-responsive" src="/assets/images/shop_large/jonc-gold_1-set-wing_2.jpg" alt="Product Image"></li>
+                  <li><img class="img-responsive" src="/assets/images/shop_large/jonc-gold_1-set-wing.jpg" alt="Product Image"></li>
                 </ul>
                 </br>
 
@@ -100,14 +103,14 @@
 
              <!-- Product Description -->
              <div class="col-md-5 product-info">
-               <span class="prod-cat">Necklaces</span>
-               <p>Ref. ID: BIJ-NEC-3</p>
+               <span class="prod-cat">Bracelet</span>
+               <p>Ref. ID: BIJ-BRA-2</p>
                </br>
-               <h4>Collection iridescence</h4> 
-               <h1 class="prod-name">Necklace ten elytra</h1>
-               <h3 class="prod-price">€ 65.00</h3>
+               <h4>Collection harmonie</h4> 
+               <h1 class="prod-name">Single set cuff bracelet</h1>
+               <h3 class="prod-price">€ 50.00</h3>
                <p class="prod-desc">
-                   This stunning piece of jewelry is a combination of a high-quality gold-plated or silver-plated chain and ten elytra carefully matched and assembled. We only make such items on demand, and we make sure that all the wings are matching each other for an optimal display. Both gold-finishing and silver-finishing are possible and the colors of the elytra range from red/copper to deep blue. 
+                   This stunning piece of jewelry is a combination of a high-quality adjustable brass cuff bracelet and elytra carefully shaped and set. Both gold-finishing and silver-finishing are possible and the colors of the elytra range from red/copper to deep blue. 
                </p>
                </br></br></br>
                <a href="https://www.etsy.com/shop/FoveaParis" target="_blank" class="btn btn-large btn-buy">Order now!</a>
@@ -132,19 +135,19 @@
                 
                <!-- Item Description -->
               <div role="tabpanel" class="tab-pane active" id="tab-sizeguide">
+
                   <h5>Item designed and handcrafted by us, for you.</h5>
                   </br>
-                  <li>Material: gold-plated or silver-plated brass chain (as desired)</li>
-                  <li>Colors: green/copper or green/blue (as desired)</li>
-                  <li>Type of chain: link</li>
-                  <li>Length: 44.5 - 47.5 cm</li>
+                  <li>Material: bracelet gilded in fine gold 24 carats or silver rhodium (as desired)</li>
+                  <li>Colors: copper, green or blue (as desired)</li>
+                  <li>Size: adjustable to your wrist size</li>
 
                   </br>
                   <p>All our products are made with nickel-free, lead-free and hypoallergenic materials.</p>
                   </br>
                   <p>We gladly accept specific demands regarding your order. Please send us your requirements (metal finishing, colors, ...) by email when ordering a product.</p>
                   </br>
-
+              
               </div><!-- / .tab-pane #tab-sizeguide -->
               
               <!-- Care instructions -->
@@ -225,14 +228,38 @@
  
     <script src="../../assets/js/load_assets.js"></script>
 
-
     <!-- Google Maps -->
     <script src="../../assets/js/gmap.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATi0Gum1wShQlbE0k_eRUsm5KlDjnv-nc"></script>
  
     <!-- Definity JS -->
-    <script src="../../assets/js/main.js"></script>
-
+    <script src="/assets/js/main.js"></script>
+    
+    
+    <!-- Convert all src to data-src for img -->
+    <script> 
+    function initialiseImages() {
+            var scripts = document.getElementsByTagName('script');
+            var section = scripts[scripts.length-1].parentNode;
+            var images = section.getElementsByTagName('img');
+            for (var i = 0; i < images.length; i++) {
+                            var src = images[i].getAttribute('src');
+                            var datasrc = document.createAttribute('data-magnify-src');
+                            datasrc.value = src;
+                            images[i].setAttributeNode(datasrc);
+            };
+    }
+    initialiseImages();
+    </script>
+    <!-- Magnify.js -->
+    <script src="/assets/js/vendor/jquery.magnify.js"></script>
+    <!-- Launch Magnify.js -->
+    <script>
+        $(document).ready(function() {
+          $('img').magnify();
+        });
+    </script>
+    
 </body>
 
 <!-- Mirrored from themes.89elements.com/definity-html/index-fw-slider-mp.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Aug 2018 10:28:34 GMT -->
