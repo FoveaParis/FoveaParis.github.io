@@ -1,6 +1,9 @@
 ## FoveaParis.github.io
 This repo contains the website developed for FOVEA business.
 
+## To update  
+Update through Atom project folder for easy update.
+
 ## Hosting strategy
 2018-09-03: jserizay.site/Business  
 2018-10-16: migrated to github pages from Fovea account ([https://foveaparis.github.io](https://foveaparis.github.io))  
@@ -11,13 +14,16 @@ As of 2018-10-17, the only place where the website is hosted (and backed-up) is 
 Site should be live, definitely [here](https://foveaparis.github.io) and maybe [here](https://foveaparis.com).
 
 ## TO DO list:
-* Change button style ('Order now')  
+* ~~Change button style ('Order now')~~  
 * ~~Add top ribbon mentionning discount~~  
-* Add FB/Instagram buttons  
-* Animated hero
+* ~~Add FB/Instagram buttons~~  
+* ~~Animated hero~~
 
 
 -----------------
 # Logs
+### 2019-04-07
+Added cufflinks
+
 ### 2019-01-21
 Deleted the top banner
